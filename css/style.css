@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+:root {
+    --primary-color: #f93;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: transparent;
+    text-decoration: none;
+}
+
+.primary-btn {
+    color: #fff;
+    background: var(--primary-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.count-item {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 4px;
+    background: #F65050;
+    border-radius: 50%;
+    transform: translateX(-12px)
+    translateY(-8px);
+    z-index: 99;    
+}
+
+.topbar {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.top-list-key .list-key .list-link {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-list-key .list-key .list-link:hover {
+    color: var(--primary-color);
+}
+
+.top-searchbar .searchbar-input {
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+.top-searchbar .primary-btn {
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.top-searchbar .searchbar-container {
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+}
+
+.menu-btn {
+    background: #663300;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.slogan-box {
+    padding-left: 35%;
+}
+
+.slogan {
+    position: absolute;
+   visibility: hidden;
+   opacity: 0;
+   transition: 0.4s all ease-out;
+}
+
+.slogan.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.action-item {
+    position: relative;
+}
+
+
+.acc-icon {
+    padding: 4px 8px;
+    background: var(--primary-color);
+    border-radius: 6px;
+}
+
+.action-item:hover .acc-icon {
+    filter: brightness(1.2);
+}
+
+.acc-desc {
+    color: #333;
+    font-size: 14px;
+}
+
+.navbar .list-menu .header {
+    color: #fff;
+    background: var(--primary-color);
+    border-radius: 6px 6px 0px 0px;
+}
+
+.navbar .list-menu .header span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar .nav-menu .menu-link {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar .nav-menu .menu-link:hover {
+    color: var(--primary-color);
+    font-size: 16px;
+}
