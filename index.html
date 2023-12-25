@@ -208,7 +208,7 @@
                     </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slider html</a>
                 </div>
             </div>
-            <div class="sub-banner">
+            <div class="sub-banner mb-5">
                 <div class="row">
                     <div class="col-lg-1"></div>
                     <div class="col-lg-5">
@@ -226,6 +226,57 @@
                         </div>
                     </div>
                     <div class="col-lg-1"></div>
+                </div>
+            </div>
+            <div class="section-sale">
+                <div class="section-sale-container bg-image py-2">
+                    <div class="title d-flex justify-content-center align-items-center">
+                        <a href="#" class="title-link d-flex justify-content-center me-5">
+                            <div class="icon wow animate__animated animate__tada animate__infinite	 animate__fast">
+                            <svg width="30" fill="#fff" viewBox="0 0 24 24" id="thunder" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M18.82,9.18A2,2,0,0,0,17,8H15.19l1.33-3.26a2,2,0,0,0-.19-1.84A2.06,2.06,0,0,0,14.62,2H10.28A2,2,0,0,0,8.37,3.27l-3.23,8a2,2,0,0,0,.2,1.83,2.06,2.06,0,0,0,1.71.9H9.81L8,20.74a1,1,0,0,0,.5,1.15A1.12,1.12,0,0,0,9,22a1,1,0,0,0,.76-.35l8.8-10.37A2,2,0,0,0,18.82,9.18Z" style="fill: #e71414;"></path></g></svg>
+                            </div>
+                            Ăn thả ga - không lo vê giá
+                        </a>
+                        <div class="count-down">
+                            <div class="timer-view d-flex align-items-center">
+                                <div class="block-timer d-in">
+                                    <strong>04</strong>
+                                    <p class="m-0">ngày</p>
+                                </div>
+                                <span class=" d-block mx-2">:</span>
+                                <div class="block-timer d-in">
+                                    <strong>04</strong>
+                                    <p class="m-0">giờ</p>
+                                </div>
+                                <span class=" d-block mx-2">:</span>
+                                <div class="block-timer d-in">
+                                    <strong>04</strong>
+                                    <p class="m-0">phút</p>
+                                </div>
+                                <span class=" d-block mx-2">:</span>
+                                <div class="block-timer d-in">
+                                    <strong>04</strong>
+                                    <p class="m-0">giây</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale-carousel">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -310,6 +361,23 @@
         };
 
         jssor_1_slider_init()
+
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
     </script>
 </body>
 </html>
