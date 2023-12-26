@@ -6,8 +6,12 @@
     <link rel="stylesheet" href="./vendor/bootsTrap/bootstrap-grid.css">
     <link rel="stylesheet" href="./vendor/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./vendor/owlCarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./vendor/animate/animate.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Document</title>
     <script src="./vendor/jssorSlider/jssor.slider-28.1.0.min.js"></script>
     <script src="./vendor/jquery/jquery-3.7.1.js"></script>
@@ -210,27 +214,27 @@
             </div>
             <div class="sub-banner mb-5">
                 <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-1 col-md-1 col-1"></div>
+                    <div class="col-lg-5 col-md-5 col-5">
                         <div class="sub-banner-box">
                             <a href="#" class="link">
                                 <img src="./images/img_3banner_1.webp" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 col-md-5 col-5">
                         <div class="sub-banner-box">
                             <a href="#" class="link">
                                 <img src="./images/img_3banner_2.webp" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-1"></div>
+                    <div class="col-lg-1 col-md-1 col-1"></div>
                 </div>
             </div>
-            <div class="section-sale">
+            <div class="section-sale mb-5">
                 <div class="section-sale-container bg-image py-2">
-                    <div class="title d-flex justify-content-center align-items-center">
+                    <div class="title d-flex align-items-center">
                         <a href="#" class="title-link d-flex justify-content-center me-5">
                             <div class="icon wow animate__animated animate__tada animate__infinite	 animate__fast">
                             <svg width="30" fill="#fff" viewBox="0 0 24 24" id="thunder" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M18.82,9.18A2,2,0,0,0,17,8H15.19l1.33-3.26a2,2,0,0,0-.19-1.84A2.06,2.06,0,0,0,14.62,2H10.28A2,2,0,0,0,8.37,3.27l-3.23,8a2,2,0,0,0,.2,1.83,2.06,2.06,0,0,0,1.71.9H9.81L8,20.74a1,1,0,0,0,.5,1.15A1.12,1.12,0,0,0,9,22a1,1,0,0,0,.76-.35l8.8-10.37A2,2,0,0,0,18.82,9.18Z" style="fill: #e71414;"></path></g></svg>
@@ -264,16 +268,461 @@
                     <div class="sale-carousel">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <img src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                <div class="product-card">
+                                    <form action="" class="product-acction">
+                                        <a href="#" class="product-link">
+                                            <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                            <div class="sold-out">
+                                                <img src="./images/icon_sold_out.webp" alt="" class="sold-out-image">
+                                            </div>
+                                        </a>
+                                        <div class="acc-group">
+                                            <a href="#" class="acc-quick-view mb-2">
+                                                <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                                <span class="mx-2"> | </span>
+                                                Xem nhanh
+                                            </a>
+                                        </div>
+                                    </form>
+                                    <div class="sale-tag">
+                                        <span class="tag-txt">18%</span>
+                                    </div>
+                                    <a href="#" class="favorite-tag">
+                                        <svg class="active" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                    </a>
+                                    <h3 class="product-name px-2">
+                                        <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                    </h3>
+                                    <div class="product-price">
+                                        <span class="new-price me-2">58.000&#8363;</span>
+                                        <span class="old-price">70.000&#8363;</span>
+                                    </div>
+                                    <div class="product-sold mx-2 mt-2">
+                                        <div class="txt-ct">Hết hàng</div>
+                                        <div class="sold-percent disable"></div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <img src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                <div class="product-card">
+                                    <form action="" class="product-acction">
+                                        <a href="#" class="product-link">
+                                            <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        </a>
+                                        <div class="acc-group">
+                                            <a href="#" class="acc-quick-view mb-2">
+                                                <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                                <span class="mx-2"> | </span>
+                                                Xem nhanh
+                                            </a>
+                                        </div>
+                                    </form>
+                                    <div class="sale-tag">
+                                        <span class="tag-txt">18%</span>
+                                    </div>
+                                    <a href="#" class="favorite-tag">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                    </a>
+                                    <h3 class="product-name px-2">
+                                        <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                    </h3>
+                                    <div class="product-price">
+                                        <span class="new-price me-2">58.000&#8363;</span>
+                                        <span class="old-price">70.000&#8363;</span>
+                                    </div>
+                                    <div class="product-sold mx-2 mt-2">
+                                        <div class="txt-ct">Đã bán 24 sp</div>
+                                        <div class="sold-percent"></div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <img src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                <div class="product-card">
+                                    <form action="" class="product-acction">
+                                        <a href="#" class="product-link">
+                                            <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        </a>
+                                        <div class="acc-group">
+                                            <a href="" class="acc-quick-view mb-2">
+                                                <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                                <span class="mx-2"> | </span>
+                                                Xem nhanh
+                                            </a>
+                                            <button class="quick-buy-btn">
+                                                <svg width="15" fill="#fff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>shopping-basket</title> <path d="M30 12.75h-5.274l-5.581-10.344c-0.215-0.396-0.628-0.66-1.102-0.66-0.69 0-1.25 0.559-1.25 1.25 0 0.219 0.056 0.425 0.155 0.604l-0.003-0.006 4.941 9.156h-11.735l4.992-9.151c0.098-0.174 0.155-0.382 0.155-0.603 0-0.691-0.56-1.25-1.25-1.25-0.473 0-0.884 0.262-1.097 0.649l-0.003 0.006-5.645 10.349h-5.303c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h0.95l1.855 13.916c0.084 0.615 0.607 1.084 1.238 1.084 0 0 0.001 0 0.001 0h20c0 0 0.001 0 0.002 0 0.631 0 1.153-0.469 1.236-1.078l0.001-0.006 1.855-13.916h0.861c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0zM24.951 27.75h-17.812l-1.667-12.5h21.145zM16.046 16.75h-0.006c-0.688 0-1.246 0.556-1.25 1.244v0l-0.035 7c0 0.002 0 0.003 0 0.005 0 0.688 0.556 1.247 1.244 1.251h0.006c0 0 0 0 0 0 0.688 0 1.247-0.556 1.25-1.244v-0l0.035-7c0-0.002 0-0.003 0-0.005 0-0.688-0.556-1.247-1.244-1.251h-0zM11.067 16.75h-0.006c0 0 0 0 0 0-0.688 0-1.247 0.556-1.25 1.244v0l-0.034 7c0 0.001 0 0.003 0 0.005 0 0.689 0.556 1.247 1.244 1.251h0.006c0 0 0 0 0.001 0 0.688 0 1.246-0.556 1.249-1.244v-0l0.034-7c0-0.002 0-0.004 0-0.006 0-0.688-0.556-1.247-1.244-1.25h-0zM21.018 16.75h-0.006c-0.688 0-1.246 0.556-1.25 1.244v0l-0.033 7c0 0.001 0 0.003 0 0.005 0 0.689 0.556 1.247 1.244 1.251h0.006c0.688-0.001 1.246-0.557 1.25-1.244v-0l0.033-7c0-0.002 0-0.004 0-0.006 0-0.688-0.556-1.247-1.244-1.25h-0z"></path> </g></svg>
+                                                <span class="mx-2"> | </span>
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="sale-tag">
+                                        <span class="tag-txt">18%</span>
+                                    </div>
+                                    <a href="#" class="favorite-tag">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                    </a>
+                                    <h3 class="product-name px-2">
+                                        <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                    </h3>
+                                    <div class="product-price">
+                                        <span class="new-price me-2">58.000&#8363;</span>
+                                        <span class="old-price">70.000&#8363;</span>
+                                    </div>
+                                    <div class="product-sold mx-2 mt-2">
+                                        <div class="txt-ct">Đã bán 24 sp</div>
+                                        <div class="sold-percent"></div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <img src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                <div class="product-card">
+                                    <form action="" class="product-acction">
+                                        <a href="#" class="product-link">
+                                            <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        </a>
+                                        <div class="acc-group">
+                                            <a href="" class="acc-quick-view mb-2">
+                                                <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                                <span class="mx-2"> | </span>
+                                                Xem nhanh
+                                            </a>
+                                            <button class="quick-buy-btn">
+                                                <svg width="15" fill="#fff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>shopping-basket</title> <path d="M30 12.75h-5.274l-5.581-10.344c-0.215-0.396-0.628-0.66-1.102-0.66-0.69 0-1.25 0.559-1.25 1.25 0 0.219 0.056 0.425 0.155 0.604l-0.003-0.006 4.941 9.156h-11.735l4.992-9.151c0.098-0.174 0.155-0.382 0.155-0.603 0-0.691-0.56-1.25-1.25-1.25-0.473 0-0.884 0.262-1.097 0.649l-0.003 0.006-5.645 10.349h-5.303c-0.69 0-1.25 0.56-1.25 1.25s0.56 1.25 1.25 1.25v0h0.95l1.855 13.916c0.084 0.615 0.607 1.084 1.238 1.084 0 0 0.001 0 0.001 0h20c0 0 0.001 0 0.002 0 0.631 0 1.153-0.469 1.236-1.078l0.001-0.006 1.855-13.916h0.861c0.69 0 1.25-0.56 1.25-1.25s-0.56-1.25-1.25-1.25v0zM24.951 27.75h-17.812l-1.667-12.5h21.145zM16.046 16.75h-0.006c-0.688 0-1.246 0.556-1.25 1.244v0l-0.035 7c0 0.002 0 0.003 0 0.005 0 0.688 0.556 1.247 1.244 1.251h0.006c0 0 0 0 0 0 0.688 0 1.247-0.556 1.25-1.244v-0l0.035-7c0-0.002 0-0.003 0-0.005 0-0.688-0.556-1.247-1.244-1.251h-0zM11.067 16.75h-0.006c0 0 0 0 0 0-0.688 0-1.247 0.556-1.25 1.244v0l-0.034 7c0 0.001 0 0.003 0 0.005 0 0.689 0.556 1.247 1.244 1.251h0.006c0 0 0 0 0.001 0 0.688 0 1.246-0.556 1.249-1.244v-0l0.034-7c0-0.002 0-0.004 0-0.006 0-0.688-0.556-1.247-1.244-1.25h-0zM21.018 16.75h-0.006c-0.688 0-1.246 0.556-1.25 1.244v0l-0.033 7c0 0.001 0 0.003 0 0.005 0 0.689 0.556 1.247 1.244 1.251h0.006c0.688-0.001 1.246-0.557 1.25-1.244v-0l0.033-7c0-0.002 0-0.004 0-0.006 0-0.688-0.556-1.247-1.244-1.25h-0z"></path> </g></svg>
+                                                <span class="mx-2"> | </span>
+                                                Mua ngay
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="sale-tag">
+                                        <span class="tag-txt">18%</span>
+                                    </div>
+                                    <a href="#" class="favorite-tag">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                    </a>
+                                    <h3 class="product-name px-2">
+                                        <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                    </h3>
+                                    <div class="product-price">
+                                        <span class="new-price me-2">58.000&#8363;</span>
+                                        <span class="old-price">70.000&#8363;</span>
+                                    </div>
+                                    <div class="product-sold mx-2 mt-2">
+                                        <div class="txt-ct">Đã bán 24 sp</div>
+                                        <div class="sold-percent"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product-card">
+                                    <form action="" class="product-acction">
+                                        <a href="#" class="product-link">
+                                            <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        </a>
+                                        <div class="acc-group">
+                                            <a href="#" class="acc-quick-view mb-2">
+                                                <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                                <span class="mx-2"> | </span>
+                                                Xem nhanh
+                                            </a>
+                                        </div>
+                                    </form>
+                                    <div class="sale-tag">
+                                        <span class="tag-txt">18%</span>
+                                    </div>
+                                    <a href="#" class="favorite-tag">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                    </a>
+                                    <h3 class="product-name px-2">
+                                        <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                    </h3>
+                                    <div class="product-price">
+                                        <span class="new-price me-2">58.000&#8363;</span>
+                                        <span class="old-price">70.000&#8363;</span>
+                                    </div>
+                                    <div class="product-sold mx-2 mt-2">
+                                        <div class="txt-ct">Đã bán 24 sp</div>
+                                        <div class="sold-percent"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-banner mb-5">
+                <a href="#" class="banner-link">
+                    <img src="./images/banner_index.webp" alt="" class="banner-image-scale">
+                </a>
+            </div>
+            <div class="shortened-list mb-5">
+                <div class="heading-box mb-3">
+                    <h2 class="heading-txt m-0">
+                        <a href="#">sản phẩm của dinosnack</a>
+                    </h2>
+                    <span class="heading-icon">
+                        <img src="./images/icon_combo_product.webp" alt="">
+                    </span>
+                </div>
+                <div class="shortened-list-tab mb-3">
+                    <div class="tab-link active">
+                        <span class="tab-txt">Tất cả</span>
+                    </div>
+                    <div class="tab-link">
+                        <span class="tab-txt">Bánh kẹo ngoại nhập</span>
+                    </div>
+                    <div class="tab-link">
+                        <span class="tab-txt">Bánh kẹo nội nhập</span>
+                    </div>
+                    <div class="tab-link">
+                        <span class="tab-txt">Cơm cháy - snack</span>
+                    </div>
+                </div>
+                <div class="shortened-list-body">
+                    <div class="row mb-3">
+                        <div class="col-lg-25 col-md-3 col-6">
+                                    <div class="product-card">
+                                <form action="" class="product-acction">
+                                    <a href="#" class="product-link">
+                                        <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        <div class="sold-out d-none">
+                                            <img src="./images/icon_sold_out.webp" alt="" class="sold-out-image">
+                                        </div>
+                                    </a>
+                                    <div class="acc-group">
+                                        <a href="#" class="acc-quick-view mb-2">
+                                            <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                            <span class="mx-2"> | </span>
+                                            Xem nhanh
+                                        </a>
+                                    </div>
+                                </form>
+                                <div class="sale-tag">
+                                    <span class="tag-txt">18%</span>
+                                </div>
+                                <a href="#" class="favorite-tag">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </a>
+                                <h3 class="product-name px-2">
+                                    <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="new-price me-2">58.000&#8363;</span>
+                                    <span class="old-price">70.000&#8363;</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-25 col-md-3 col-6">
+                            <div class="product-card">
+                                <form action="" class="product-acction">
+                                    <a href="#" class="product-link">
+                                        <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        <div class="sold-out">
+                                            <img src="./images/icon_sold_out.webp" alt="" class="sold-out-image">
+                                        </div>
+                                    </a>
+                                    <div class="acc-group">
+                                        <a href="#" class="acc-quick-view mb-2">
+                                            <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                            <span class="mx-2"> | </span>
+                                            Xem nhanh
+                                        </a>
+                                    </div>
+                                </form>
+                                <div class="sale-tag">
+                                    <span class="tag-txt">18%</span>
+                                </div>
+                                <a href="#" class="favorite-tag">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </a>
+                                <h3 class="product-name px-2">
+                                    <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="new-price me-2">58.000&#8363;</span>
+                                    <span class="old-price">70.000&#8363;</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-25 col-md-3 col-6">
+                            <div class="product-card">
+                                <form action="" class="product-acction">
+                                    <a href="#" class="product-link">
+                                        <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        <div class="sold-out">
+                                            <img src="./images/icon_sold_out.webp" alt="" class="sold-out-image">
+                                        </div>
+                                    </a>
+                                    <div class="acc-group">
+                                        <a href="#" class="acc-quick-view mb-2">
+                                            <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                            <span class="mx-2"> | </span>
+                                            Xem nhanh
+                                        </a>
+                                    </div>
+                                </form>
+                                <div class="sale-tag">
+                                    <span class="tag-txt">18%</span>
+                                </div>
+                                <a href="#" class="favorite-tag">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </a>
+                                <h3 class="product-name px-2">
+                                    <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="new-price me-2">58.000&#8363;</span>
+                                    <span class="old-price">70.000&#8363;</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-25 col-md-3 col-6">
+                            <div class="product-card">
+                                <form action="" class="product-acction">
+                                    <a href="#" class="product-link">
+                                        <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        <div class="sold-out">
+                                            <img src="./images/icon_sold_out.webp" alt="" class="sold-out-image">
+                                        </div>
+                                    </a>
+                                    <div class="acc-group">
+                                        <a href="#" class="acc-quick-view mb-2">
+                                            <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                            <span class="mx-2"> | </span>
+                                            Xem nhanh
+                                        </a>
+                                    </div>
+                                </form>
+                                <div class="sale-tag">
+                                    <span class="tag-txt">18%</span>
+                                </div>
+                                <a href="#" class="favorite-tag">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </a>
+                                <h3 class="product-name px-2">
+                                    <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="new-price me-2">58.000&#8363;</span>
+                                    <span class="old-price">70.000&#8363;</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-25 col-md-3 col-6">
+                            <div class="product-card">
+                                <form action="" class="product-acction">
+                                    <a href="#" class="product-link">
+                                        <img class="product-image" src="./images/nam-viet-quat-150gr-dan-d-pak-e3.webp" alt="">
+                                        <div class="sold-out">
+                                            <img src="./images/icon_sold_out.webp" alt="" class="sold-out-image">
+                                        </div>
+                                    </a>
+                                    <div class="acc-group">
+                                        <a href="#" class="acc-quick-view mb-2">
+                                            <svg width="15" heigth="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.8053 15.8013L21 21M10.5 7.5V13.5M7.5 10.5H13.5M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                            <span class="mx-2"> | </span>
+                                            Xem nhanh
+                                        </a>
+                                    </div>
+                                </form>
+                                <div class="sale-tag">
+                                    <span class="tag-txt">18%</span>
+                                </div>
+                                <a href="#" class="favorite-tag">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </a>
+                                <h3 class="product-name px-2">
+                                    <a href="#" class="link">nam việt quất sáy khô dan d pak 150G</a>
+                                </h3>
+                                <div class="product-price">
+                                    <span class="new-price me-2">58.000&#8363;</span>
+                                    <span class="old-price">70.000&#8363;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="watch-full">
+                        <a href="#">
+                            <span class="watch-full-txt">Xem tất cả sản phẩm &#8594;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-evaluate">
+                <div class="evaluate-container pb-5">
+                    <div class="evaluate-bg-image"></div>
+                    <div class="evaluate-heading mb-3">
+                        <h2 class="evaluate-heading-txt m-0">
+                            <a href="#">đánh giá của khách hàng</a>
+                        </h2>
+                        <span class="evaluate-heading-icon">
+                            <img src="./images/icon_quo.webp" alt="">
+                        </span>
+                    </div>
+                    <div class="evaluate-carousel">
+                        <div class="owl-carousel-2 owl-theme">
+                            <div class="item">
+                                <div class="avatar">
+                                    <img src="./images/danhgia_3.webp" alt="">
+                                </div>
+                                <div class="content">
+                                    <p class="m-0">
+                                        Bánh rất ngon, hương vị đậm đà mà không bị ngấy,
+                                         nhân viên thì phục vụ rất vui vẻ, tận tình nhất là món bánh tráng trộn
+                                          sốt me rất ngon mà giá cả phù hợp. Dino giá cả phải chăng.
+                                    </p>
+                                </div>
+                                <div class="testimonial">
+                                    <h5 class="m-0">Suzy</h5>
+                                    <p class="m-0">customner</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="avatar">
+                                    <img src="./images/danhgia_3.webp" alt="">
+                                </div>
+                                <div class="content">
+                                    <p class="m-0">
+                                        Bánh rất ngon, hương vị đậm đà mà không bị ngấy,
+                                         nhân viên thì phục vụ rất vui vẻ, tận tình nhất là món bánh tráng trộn
+                                          sốt me rất ngon mà giá cả phù hợp. Dino giá cả phải chăng.
+                                    </p>
+                                </div>
+                                <div class="testimonial">
+                                    <h5 class="m-0">Suzy</h5>
+                                    <p class="m-0">customner</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="avatar">
+                                    <img src="./images/danhgia_3.webp" alt="">
+                                </div>
+                                <div class="content">
+                                    <p class="m-0">
+                                        Bánh rất ngon, hương vị đậm đà mà không bị ngấy,
+                                         nhân viên thì phục vụ rất vui vẻ, tận tình nhất là món bánh tráng trộn
+                                          sốt me rất ngon mà giá cả phù hợp. Dino giá cả phải chăng.
+                                    </p>
+                                </div>
+                                <div class="testimonial">
+                                    <h5 class="m-0">Suzy</h5>
+                                    <p class="m-0">customner</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="avatar">
+                                    <img src="./images/danhgia_3.webp" alt="">
+                                </div>
+                                <div class="content">
+                                    <p class="m-0">
+                                        Bánh rất ngon, hương vị đậm đà mà không bị ngấy,
+                                         nhân viên thì phục vụ rất vui vẻ, tận tình nhất là món bánh tráng trộn
+                                          sốt me rất ngon mà giá cả phù hợp. Dino giá cả phải chăng.
+                                    </p>
+                                </div>
+                                <div class="testimonial">
+                                    <h5 class="m-0">Suzy</h5>
+                                    <p class="m-0">customner</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -363,21 +812,48 @@
         jssor_1_slider_init()
 
         $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
-        }
-    }
-})
+            loop:false,
+            margin:10,
+            dots:false,
+            nav:true,
+            navText:["<i class=\"fa-solid fa-chevron-left\"></i>","<i class=\"fa-solid fa-chevron-right\"></i>"],
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+
+        $('.owl-carousel-2').owlCarousel({
+            loop:true,
+            margin:10,
+            dots:false,
+            center:true,
+            nav:true,
+            navText:["<i class=\"fa-solid fa-chevron-left\"></i>","<i class=\"fa-solid fa-chevron-right\"></i>"],
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
     </script>
+
+
+
+
+
 </body>
 </html>

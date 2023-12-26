@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+    .list-menu {
+        transform: translateX(-150%);
+    }
+
+    .nav-menu {
+        display: none!important;
+    }
+
+    .body-wapper {
+        margin: 0;
+    }
+    
+    .sub-banner-box {
+        margin-top: -50px;
+    }
+
+    .section-sale,
+    .section-sale-container.bg-image {
+        height: auto;
+    }
+
+    .sale-carousel {
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        padding: 15px;
+    }
+    
+    .section-sale .title {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 0;
+    }
+
+    .section-sale .title .title-link {
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        transform:  translateX(20px);
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        transform:  translateX(-20px);
+    }
+}
