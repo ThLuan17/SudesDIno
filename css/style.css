@@ -155,11 +155,6 @@ a {
     width: 350px;
 }
 
-.list-menu.fixed {
-    position: fixed;
-    top: 0;
-}
-
 .list-menu .aside-inner {
     position: absolute;
     background: #fff;
@@ -473,7 +468,7 @@ a {
     bottom: -5px;
     left: 0;
     filter: brightness(0.8);
-    z-index: 99;
+    z-index: 9;
 }
 
 .favorite-tag {
