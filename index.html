@@ -122,6 +122,7 @@
     </div>
     <header class="header">
         <nav class="navbar">
+            <div class="navbar-bg"></div>
             <div class="container-fluid">
                 <div class="navbar-container d-flex align-items-center">
                     <div class="list-menu">
@@ -548,7 +549,7 @@
                 </div>
                 <div class="shortened-list-body">
                     <div class="row mb-3">
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                                     <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -580,7 +581,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                             <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -612,7 +613,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                             <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -644,7 +645,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                             <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -676,7 +677,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                             <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -808,7 +809,7 @@
                 </div>
                 <div class="shortened-list-body">
                     <div class="row mb-3">
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                                     <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -840,7 +841,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                             <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -872,7 +873,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                             <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -904,7 +905,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                             <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -936,7 +937,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-25 col-md-4 col-6 mb-3">
+                        <div class="col-xl-25 col-lg-4 col-md-4 col-6 mb-3">
                             <div class="product-card">
                                 <form action="" class="product-acction">
                                     <a href="#" class="product-link">
@@ -1279,6 +1280,23 @@
             } 
         })
 
+                const navtoggleBtn = document.querySelector('.menu-btn')
+                const navBar = document.querySelector('.navbar')
+                const navBarBg = document.querySelector('.navbar-bg')
+
+                navtoggleBtn.addEventListener('click', function () {
+                    navBar.classList.remove('disable')
+                    navBar.classList.add('active')
+                })
+
+                navBarBg.addEventListener('click', function() {
+                    navBar.classList.remove('active')
+                    navBar.classList.add('disable')
+                    
+                })
+
+
+
         window.jssor_1_slider_init = function() {
             var jssor_1_SlideoTransitions = [
               [{b:500,d:1000,x:0,e:{x:6}}],
@@ -1359,6 +1377,9 @@
                     items:2
                 },
                 1000:{
+                    items:3
+                },
+                1200:{
                     items:4
                 }
             }

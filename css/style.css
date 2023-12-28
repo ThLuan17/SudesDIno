@@ -173,6 +173,12 @@ a {
     width: 11%;
 }
 
+.list-menu.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
 .aside-list .aside-item .icon img {
     width: 24px;
 }
